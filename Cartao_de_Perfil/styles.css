@@ -1,0 +1,44 @@
+body {
+    background-color: #4b9bfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 300px;
+    text-align: center;
+}
+.profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 80% 50%;
+    margin-bottom: 15px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.bnt{
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 20px;
+    background-color: #4b9bfc;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.bnt:hover {
+    background-color: rgb(102, 182, 251);
+}
